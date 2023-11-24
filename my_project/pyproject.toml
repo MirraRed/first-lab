@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-package"
+version = "0.1.0"
+description = ""
+authors = ["RamiRed <106880668+MirraRed@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.0"
+waitress = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
